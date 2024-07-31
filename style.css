@@ -130,3 +130,87 @@ body {
   border-radius: 10px;
   text-align: center;
 }
+
+/* Media Queries */
+@media (max-width: 768px) {
+  .container {
+    padding: 20px;
+  }
+
+  .card {
+    width: 80%;
+    flex-direction: column;
+    height: auto;
+    padding: 20px;
+  }
+
+  .inputBox {
+    width: 80%;
+    margin-bottom: 10px;
+  }
+
+  .btnSearch {
+    width: 50%;
+  }
+
+  .titleCard,
+  .output {
+    width: 80%;
+  }
+
+  .title {
+    font-size: 28px;
+  }
+
+  .tempCard {
+    font-size: 20px;
+  }
+
+  #temp {
+    font-size: 60px;
+  }
+
+  #loc-time {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 480px) {
+  .container {
+    padding: 10px;
+  }
+
+  .card {
+    width: 90%;
+    padding: 15px;
+  }
+
+  .inputBox {
+    width: 100%;
+  }
+
+  .btnSearch {
+    width: 100%;
+  }
+
+  .title {
+    font-size: 24px;
+  }
+
+  .tempCard {
+    font-size: 18px;
+  }
+
+  #temp {
+    font-size: 50px;
+  }
+
+  #loc-time {
+    font-size: 12px;
+  }
+
+  .titleCard,
+  .output {
+    width: 90%;
+  }
+}
